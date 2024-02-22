@@ -1,0 +1,76 @@
+body{
+    background-image: url(./bg.jpg);
+    background-size: 100% 100vh;
+}
+.box{
+    color: #FFF;
+    width: 30%;
+    height: auto;
+    padding: 20px;
+    background-color: rgba(29, 178, 59, 0.58);
+    margin:30vh auto 0px auto;
+    box-shadow: 0px 0px 5px #000;
+    border-radius: 20px;
+}
+.box .head{
+    width: 100%;
+    height: 80px;
+    /* background-color: violet; */
+}
+.box .head h1{
+    /* background-color: turquoise; */
+    /* height: 80px; */
+    line-height: 80px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    padding-left: 15px;
+}
+.box .form-box{
+    width: 100%;
+    height: auto;
+    /* background-color: rgb(224, 162, 82); */
+    padding: 10px;
+    box-sizing: border-box;
+}
+.form-box .form-panel{
+    width: 100%;
+    height: auto;
+    /* background-color: skyblue; */
+    padding: 15px;
+    box-sizing: border-box;
+}
+.form-panel label{
+    /* background-color: blue; */
+     display: block;
+    font-size: 1.5em;
+}
+.form-panel input{
+    width: 100%;
+    box-sizing: border-box;
+    height: 50px;
+    outline: none;
+    padding: 15px;
+    font-size: 1.1em;
+}
+
+.form-panel a{
+    text-decoration: none;
+    color: #FFF;
+}
+.form-panel input[type=button]{
+    background-color: #44e8739c;
+     color: #FFF;
+     cursor: pointer;
+     border: 1px solid #44e8739c;   
+}
+
+.form-panel input[type=button]:hover{
+   background-color: #14b9439c;
+    box-shadow:0px 0px 5px #000 ;
+    border: 1px solid #14b9439c;
+}
+.form-panel input[type=button]:active{
+    background-color: #44e8739c;
+     box-shadow:inset 0px 0px 5px #000 ;
+    border: 1px solid #14b9439c;
+    }

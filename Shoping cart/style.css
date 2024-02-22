@@ -1,0 +1,157 @@
+body{
+    width: 95%;
+    background-size: 100% 100vh;
+    background-color: aliceblue;
+}
+.box {
+    
+    
+    width: 100%;
+    height: auto ;
+
+}
+.box h1{
+    font-weight: 300;
+    color: darkmagenta;
+}
+.box h3{
+    font-weight: 100;
+    color: brown;
+}
+.head{
+    background-color: rgb(192, 190, 190);
+    height: 20px;
+    line-height: 20px;
+    width: 100%;
+    
+}
+.head .third{
+    height: 20px;
+    float: left;
+    width: 10%;
+    background-color: rgb(190, 183, 183);   
+}
+.fourth{
+    height: 20px;
+    float: left;
+    width: 55%;
+    background-color: rgb(190, 187, 187);   
+}
+.fifth{
+    height: 20px;
+    float: left;
+    width: 10%;
+    background-color: rgb(190, 190, 190);  
+}
+.sixth{
+    height: 20px;
+    float: left;
+    width: 20%;
+    background-color: rgb(190, 187, 187);  
+}
+.seventh{
+    height: 20px;
+    float: left;
+    width: auto;
+    background-color: rgb(190, 186, 186);  
+}
+.eight{
+    width: 100%;
+        height: 100px;
+    border: 5 solid black;
+    background-color: ;
+    
+}
+.eight .ninth{
+    float: left;
+    width: 10%;
+    height: normal;
+    
+}
+.ninth img{
+    width: 80px;
+    height: 90px;
+}
+.eight .ten{
+    float: left;
+    width: 55%;
+    height: normal;
+    color: brown;
+}
+.eight .eleven{
+    float: left;
+    width: 8%;
+    height: normal;
+}
+.eight .twelve{
+    float: left;
+    width: 10%;
+    height: normal;
+    border;
+}
+.twelve input{
+    width: 20%;
+}
+.eight .thirteen{
+    float: left;
+    width: 5%;
+    line-height: normal;
+    border: 0cap;
+}
+.eight .fourteen{
+    float: left;
+    width: 12%;
+    height: normal;
+    text-align: right;
+}
+.fifteen{
+    float: right;
+}
+.fifteen .sixteen{
+    float: left;
+    width: ;
+}
+.seventeen{
+    float: left;
+    width: 20%;
+}
+.eighteen{
+    width: auto;
+    float: ;
+    
+}
+.nineteenth input{
+    color: rgba(255, 255, 255, 0.897);
+    background-color: rgb(201, 6, 6);
+    float: left;
+    
+    
+    
+}
+.twenty{
+    float: left;
+    width:;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,616 @@
+body {
+    margin: 0%;
+    padding: 0px;
+
+}
+
+nav {
+    margin: 0%;
+    width: 100vw;
+    display: flex;
+    list-style: none;
+    /* background-color: bisque; */
+    padding: 10px;
+}
+
+h3 {
+    width: 20%;
+    /* padding: 10px; */
+    margin-left: 40px;
+    margin-top: 5px
+        /* margin-right:20px */
+}
+
+li {
+    margin-left: 40px;
+    /* padding: 10px; */
+
+}
+i{
+    margin-left: 40px;
+    margin-top: 4px;
+}
+
+a {
+    text-decoration: none;
+    margin-left: 30%;
+    color: gray;
+    /* padding: 10px; */
+}
+
+nav button {
+    width: 70px;
+    height: 25px;
+    border-radius: 30px;
+    /* padding: 10px; */
+    background-color: rgb(34, 137, 241);
+    color: white;
+    margin-left: 15px;
+    margin-top: -2px;
+    border: none;
+    font-size: small;
+    /* font-weight: 500px; */
+
+
+}
+
+.button a {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: white;
+
+}
+
+.infobox {
+    /* background-color: aqua; */
+    width: 100vw;
+    height: 50vh;
+
+
+}
+
+h1 {
+    /* color: red; */
+    font-size: 3em;
+    font-weight: 900 bolder;
+    /* margin-left: 33%; */
+    text-align: center;
+    /* text-shadow: 0px -5px 4px (black),
+            0px 5px 4 px,; */
+}
+
+.infobox p {
+    /* margin-left: 33%; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    text-align: center;
+    color: gray;
+}
+
+#purchase {
+    margin-left: 43%;
+    width: 13%;
+    height: 10%;
+    /* border-radius: 40%; */
+    border-radius: 30px;
+    color: white;
+    background-color: dodgerblue;
+}
+
+.learn {
+    margin-left: 47%;
+
+    color: rgb(0, 128, 255);
+    /* text-align: center; */
+
+}
+
+.products {
+    width: 80vw;
+    height: 80vh;
+    /* background-color: aqua; */
+    margin: auto;
+    /* display: flex; */
+    position: relative;
+}
+
+.imac {
+    width: 45%;
+    height: 45%;
+    /* background-color: antiquewhite; */
+    /* float: left; */
+    position: absolute;
+    border-radius: 30px;
+}
+
+.mackbook {
+    width: 45%;
+    height: 45%;
+    /* background-color: red; */
+    margin-top: 5px;
+    position: absolute;
+    top: 50%;
+    border-radius: 30px;
+
+}
+
+.quadrocopter {
+    width: 45%;
+    height: 100%;
+    /* background-color: green; */
+    margin-top: px;
+    margin-left: 0px;
+    float: right;
+    position: absolute;
+    left: 50%;
+    border-radius: 30px;
+
+}
+
+.imac {
+    border: solid 1px gray;
+}
+
+.imac p {
+    font-size: smaller;
+    color: gray;
+    margin-left: 39px;
+
+}
+
+.imac li {
+    /* margin-top: -10; */
+    color: gray;
+    font-size: small;
+    padding: 4px;
+}
+
+.imac img {
+    width: 170px;
+    height: 190px;
+    float: right;
+    position: relative;
+    bottom: 140px;
+    margin-right: 40px;
+    border-radius: 20px;
+
+}
+
+.imac button {
+    background: transparent;
+    border-radius: 20px;
+    margin-left: 25px;
+    margin-top: 20px;
+    border: solid 1px gray;
+    font-size: smaller;
+}
+
+.imac .amount {
+    position: relative;
+    left: 80px;
+    bottom: 30px;
+    color: blue;
+
+}
+
+.mackbook {
+    border: solid 1px gray;
+}
+
+.mackbook p {
+    font-size: smaller;
+    color: gray;
+    margin-left: 39px;
+
+}
+
+.mackbook li {
+    /* margin-top: -10; */
+    color: gray;
+    font-size: small;
+    padding: 4px;
+}
+
+.mackbook img {
+    width: 170px;
+    height: 190px;
+    float: right;
+    position: relative;
+    bottom: 150px;
+    margin-right: 40px;
+    border-radius: 20px;
+
+}
+
+.mackbook button {
+    background: transparent;
+    border-radius: 20px;
+    margin-left: 25px;
+    margin-top: 20px;
+    border: solid 1px gray;
+    font-size: smaller;
+}
+
+.mackbook .amount {
+    position: relative;
+    left: 80px;
+    bottom: 30px;
+    color: blue;
+
+}
+
+.quadrocopter {
+    border: solid 1px gray;
+
+}
+
+.quadrocopter #p {
+    font-size: smaller;
+    color: gray;
+    margin-left: 39px;
+}
+
+.quadrocopter h2 {
+    margin-left: 39px;
+    margin-top: 2px;
+
+}
+
+.quadrocopter li {
+    color: gray;
+    margin: px;
+    margin-left: 39px;
+}
+
+.quadrocopter .right {
+    position: relative;
+    left: 50%;
+    bottom: 7%;
+}
+
+.quadrocopter img {
+    width: 90%;
+    position: relative;
+    left: 5%;
+    bottom: 5%;
+    border-radius: 20px;
+}
+
+.quadrocopter #p2 {
+    /* text-align: center; */
+    margin: 0%;
+    font-size: small;
+    position: relative;
+    left: 30px;
+    bottom: 20px;
+    color: gray;
+}
+
+.quadrocopter button {
+    background: transparent;
+    border-radius: 20px;
+    position: relative;
+    left: 30px;
+    bottom: 7px;
+    border: solid 1px gray;
+    font-size: smaller;
+}
+
+.quadrocopter p {
+    position: relative;
+    color: blue;
+    left: 25%;
+    bottom: 8%;
+}
+
+#container {
+    width: 70%;
+    height: 350px;
+    /* background-color: aqua; */
+    margin: auto;
+}
+
+.component{
+    width: 30%;
+    height: 250px;
+    /* background-color: blue; */
+    float: left;
+    position: relative;
+    bottom: 15px;
+    margin-left: 17px;
+}
+.responsive{
+    width: 30%;
+    height: 250px;
+    /* background-color: blue; */
+    float: left;
+    margin-left: 17px;
+
+
+    position: relative;
+    bottom: 15px;
+}
+.retina{
+    width: 30%;
+    height: 250px;
+    /* background-color: blue; */
+    float: left;
+    margin-left: 17px;
+    position: relative;
+    bottom: 15px;
+}
+.component i{
+   font-size: 60px;
+   margin-left: 110px;
+}
+.component h4{
+    /* align-items: center; */
+    text-align: center;
+}
+.component p{
+    /* align-items: center; */
+    text-align: center;
+    color: gray;
+
+}
+.responsive i{
+   font-size: 60px;
+   margin-left: 110px;
+}
+.responsive h4{
+    /* align-items: center; */
+    text-align: center;
+}
+.responsive p{
+    /* align-items: center; */
+    text-align: center;
+    color: gray;
+
+}
+.retina i{
+   font-size: 60px;
+   margin-left: 110px;
+}
+.retina h4{
+    /* align-items: center; */
+    text-align: center;
+}
+.retina p{
+    /* align-items: center; */
+    text-align: center;
+    color: gray;
+
+}
+.info{
+    width: 50%;
+    height: 300px;
+    /* background-color: aqua; */
+    margin: auto;
+}
+.info i{
+font-size: 40px;
+margin:30px 48%   ;
+}
+.info p{
+    text-align: center;
+    margin-top: 0%;
+}
+.info .photo{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    /* background-color: black; */
+    background: url(profile.jpg);
+    background-size: cover;
+   margin-left: 45%;
+
+}
+.info h4{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 4px;
+    
+}
+.info h6{
+   text-align: center;
+   color: gray;
+   margin-top: 0px;
+}
+.crew{
+    width: 100%;
+    height: 500px;
+    /* background-color: aquamarine; */
+    background: url(nature.jpg);
+    background-size: contain;
+}
+.crew h1{
+    color: white;
+   padding-top:  20px;
+}
+.crew p{
+    margin-top: -15px;
+    color: white;
+   text-align: center;
+}
+.gimson{
+    width: 180px;
+    height: 250px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    border:  solid 0.5px gray;
+    margin: 0px;
+padding: 0%;
+position: relative;
+left: 28%;
+}
+.evan{
+    width: 180px;
+    height: 250px;
+    background-color: white;
+    float: left;
+    border:  solid 0.5px gray;
+    margin: 0px;
+padding: 0%;
+position: relative;
+left: 28%;
+}
+.brian{
+    width: 180px;
+    height: 250px;
+    background-color: white;
+    float: left;
+    border:  solid 0.5px gray;
+    margin: 0px;
+    padding: 0%;
+    position: relative;
+    left: 28%;
+}
+.gimson .pic{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    background: url(gimson.jpg);
+    background-size: cover;
+    position: relative;
+    left: 50px;
+    top: 30px;
+}
+.evan .pic1{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    background: url(evan.jpg);
+    background-size: cover;
+    position: relative;
+    left: 50px;
+    top: 30px;
+}
+.brian .pic2{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    background: url(brian.png);
+    /* background-size: cover center; */
+    background-position: center;
+    position: relative;
+    left: 50px;
+    top: 30px;
+}
+.gimson p{
+    color: black;
+    position: relative;
+    top: 60px;
+}
+.evan p{
+    color: black;
+    position: relative;
+    top: 60px;
+}
+.brian p{
+    color: black;
+    position: relative;
+    top: 60px;
+}
+.i i{
+    position: relative;
+    top: 60px;
+margin-left: 15px;
+left: 40px;
+}
+.crew input{
+    background: transparent;
+    position: relative;
+    top: 55%;
+    left: 5%;
+    color: white;
+width: 120px;
+height: 45px;
+border-radius: 30px;
+border: solid 1px white;
+}
+.getstarted{
+    text-align: center;
+    color: grey;
+}
+.input{
+    width: 25%;
+    height: 100px;
+    /* align-items: center;
+    justify-content: center;
+    text-align: center; */
+    position: relative;
+    left: 35%;
+}
+.email{
+    position: relative;
+    top: 100px;
+    left: 130px;
+    width: 15%;
+    height: 30px;
+    border-radius: 30px;
+    border: solid 1px grey;
+
+}
+.send{
+    background-color: dodgerblue;
+    position: relative;
+    top: 100px;
+    left: 130px;
+    width: 80px;
+    height: 30px;
+    border: 0px;
+    border-radius: 30px;
+color: white;
+}
+.address{
+    width: 60%;
+    height: 150px;
+    /* background-color: aqua; */
+    position: relative;
+    top: 100px;
+    left: 18%;
+}
+
+.address .newyork{
+    width: 33%;
+    height: 150px;
+    float: left;
+    /* margin-left:20px ; */
+    /* background-color: beige ; */
+    text-align: center;
+}
+.address .san{
+    width: 33%;
+    height: 150px;
+    float: left;
+    text-align: center;
+
+}
+.address .dubai{
+    width: 33%;
+    height: 150px;
+    float: left;
+    text-align: center;
+
+}
+.city{
+    color: black;
+    font-size: small;
+}
+.add{
+    color: gray;
+    font-size: small;
+}
+.foot{
+    width: 40%;
+    height: 50%;
+    /* background-color: aqua; */
+    margin: auto;
+    display: flex;
+    list-style: none;
+}
+.last{
+text-align: center;
+color: gray;
+}

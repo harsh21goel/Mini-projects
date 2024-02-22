@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="css/all.css">
+<style>
+    body{
+    /* background-image: url(background.jpg); */
+    background-size: 100% 100vh ;
+    margin: 0px;
+}
+.box{
+    color: aliceblue;
+    width: 30%;
+    height: auto;
+    padding: 20px;
+    background-color: rgba(172, 71, 71, 0.637);
+    margin: 30vh auto 0px auto;
+    box-shadow: 50px 50px 50px black;
+    border-radius: 20px;
+    position: relative;
+    bottom: 100px;
+}
+.box .head {
+    width: 100%;
+    height: 80px;
+    /* background-color: aqua; */
+}
+.box .head h1{
+    /* background-color: blue; */
+    line-height: 80px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    padding-left: 15px;
+
+}
+.box .form-box{
+    width: 100%;
+    height: auto;
+    /* background-color: aqua; */
+    padding: 10px;
+    box-sizing: border-box;
+}
+.form-box .form-panel{
+    /* background-color: blue; */
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.form-panel label{
+    /* background-color: chartreuse; */
+    display: block;
+    font-size: 1.5em;
+}
+.form-panel input{
+
+    width: 100%;
+    box-sizing: border-box;
+    height: 50px;
+    /* outline: none; */
+    padding: 15px;
+    font-size: 1.1em;
+}
+.form-panel a{
+    /* text-decoration: none; */
+    color: aliceblue;
+}
+.form-panel input[type=button]{
+    background-color: rgba(218, 99, 99, 0.712);
+    color: aliceblue;
+    cursor: pointer;
+    border: 1px solid rgba(218, 99, 99, 0.712);
+}
+.form-panel input[type=button]:hover{
+    background-color: brown;
+    box-shadow: 0px 0px 5px black;
+    border: 1px solid rgba(218, 99, 99, 0.712);
+}
+.form-panel input[type=button]:active{
+    background-color: rgba(218, 99, 99, 0.712);
+     box-shadow:inset 0px 0px 5px #000 ;
+    border: 1px solid  rgba(218, 99, 99, 0.712);
+    }
+    .create a{
+color: white;
+margin-left: 10px;
+font-size: small;
+    }
+    .signup{
+        color: aliceblue;
+        width: 30%;
+        height: auto;
+        padding: 20px;
+        background-color: rgba(172, 71, 71, 0.637);
+        margin: 30vh auto 0px auto;
+        box-shadow: 50px 50px 50px black;
+        border-radius: 20px;
+        position: relative;
+        bottom: 100px;
+    }
+    .mobile label{
+font-size: larger;
+    }
+    .mobile input{
+        width: 400px;
+        height: 35px;
+    }
+    .emailid label{
+font-size: larger;
+    }
+    .emailid input{
+        width: 400px;
+        height: 35px;
+    }
+    .pass label{
+font-size: larger;
+    }
+    .pass input{
+        width: 400px;
+        height: 35px;
+    }
+    .Npass label{
+font-size: larger;
+    }
+    .Npass input{
+        width: 400px;
+        height: 35px;
+    }
+    .butt button{
+        background-color: rgba(218, 99, 99, 0.712);
+    color: aliceblue;
+    cursor: pointer;
+    border: 3px solid rgba(218, 99, 99, 0.712);
+    }
+    .forgetpass{
+        color: aliceblue;
+        width: 30%;
+        height: auto;
+        padding: 20px;
+        background-color: rgba(172, 71, 71, 0.637);
+        margin: 30vh auto 0px auto;
+        box-shadow: 50px 50px 50px black;
+        border-radius: 20px;
+        position: relative;
+        bottom: 100px;
+    }
+    .link{
+        color: aliceblue;
+        width: 30%;
+        height: auto;
+        padding: 20px;
+        background-color: rgba(172, 71, 71, 0.637);
+        margin: 30vh auto 0px auto;
+        box-shadow: 50px 50px 50px black;
+        border-radius: 20px;
+        position: relative;
+        bottom: 100px;
+    }
+    .link a{
+        font-size: larger;
+        color: white;
+    }
+    .container{
+        position: relative;
+        transform-style: preserve-3d;
+        transition: transform 3s;
+        width: 100%;
+        height: 100vh;
+    }
+    .face{
+position: absolute;
+    }
+    .front{
+        transform: translatez(680px);
+        /* background-color: aqua; */
+        width: 100%;
+        height: 100vh;
+        background: url(background.jpg);
+      background-size: cover;
+    }
+    .back{
+        transform: translatez(-680px) rotateY(180deg);
+        width: 100%;
+        height: 100vh;
+        background: url(background.jpg);
+        /* background-color: blue; */
+      background-size: cover;
+
+    }
+    .left{
+        transform: translatex(-680px)rotateY(-90deg);;
+        width: 100%;
+        height: 100vh;
+        background: url(background.jpg);
+
+       
+    }
+    .right{
+        transform: translatex(680px)rotateY(90deg);;
+        width: 100%;
+        height: 100vh;
+        background: url(background.jpg);
+
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="front face">
+            <div class="box">
+                <div class="head">
+                    <h1>Login Page</h1>
+                </div>
+                <div class="form-box">
+                    <div class="form-panel">
+                        <label for="">Enter email id or number</label>
+                        <input type="text" name="" id="">
+                    </div>
+                    <div class="form-panel">
+                        <label for="">Enter password</label>
+                        <input type="number" name="" id="">
+
+                    </div>
+                    <div class="form-panel" style="padding: 0px 20px;">
+                        <a href="#" id="forget">Forget password</a>
+                    </div>
+                    <div class="form-panel"><input type="button" value="Login" name="" ></div>
+                    <div class="form-panel"><input type="button" value="Signup" id="log"></div>
+                    <div class="create"><a href="#" id="Other">Login with Other Option</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="back face">
+            <div class="signup">
+                <div class="register">
+                    <h1>Sign up</h1>
+                </div>
+                <br>
+                <br>
+                <div class="mobile">
+                    <label for="mobile">Enter Your Phone number </label>
+                    <br>
+                    <input type="number" name="" id="mobile">
+                </div>
+                <br>
+                <br>
+                <div class="emailid">
+                    <label for="email">Enter Email address </label>
+                    <br>
+                    <input type="email" name="" id="email">
+                </div>
+                <br>
+                <br>
+                <div class="pass">
+                    <label for="password">Password </label>
+                    <br>
+                    <input type="number" name="" id="password">
+                </div>
+                <br>
+                <br>
+                <div class="Npass">
+                    <label for="newpass">Confirm Password </label>
+                    <br>
+                    <input type="number" name="" id="newpass">
+                </div>
+                <br>
+
+                <div class="butt">
+                    <button>Submit</button>
+                </div>
+            </div>
+        </div>
+        <div class="left face">
+            <div class="forgetpass">
+                <div class="forget">
+                    <h1>Forget password</h1>
+                </div>
+                <div class="mobile">
+                    <label for="mobile">Enter Your Phone number </label>
+                    <br>
+                    <input type="number" name="" id="mobile">
+                </div>
+                <div class="mobile">
+                    <label for="">Enter OTP here </label>
+                    <br>
+                    <input type="number" name="" id="">
+                </div>
+                <div class="mobile">
+                    <label for="">New password </label>
+                    <br>
+                    <input type="number" name="" id="">
+                </div>
+                <br>
+                <br>
+                <div class="butt">
+                    <button>Confirm</button>
+                </div>
+
+            </div>
+        </div>
+        <div class="right face">
+            <div class="link">
+                <a href="">Log in with facebook <i class="fab fa-facebook"></i></a>
+                <br>
+                <br>
+                <br>
+                <a href="">Log in with twitter <i class="fab fa-twitter"></i></a>
+                <br>
+                <br>
+                <br>
+                <a href="">Log in with instagram <i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+   <script>
+    let contain=document.querySelector(".container")
+    let log=document.getElementById("log")
+    let Other=document.getElementById("Other")
+    let forget=document.getElementById("forget")
+    let rotationx=0
+    let rotationy=0
+    
+
+    log.addEventListener('click',function(){
+        rotationy -= 180;
+        contain.style.transform=`rotateX(${rotationx}deg)rotateY(${rotationy}deg)`;
+    });
+    Other.addEventListener('click',function(){
+        rotationy -= 90;
+        contain.style.transform=`rotateX(${rotationx}deg)rotateY(${rotationy}deg)`;
+    });
+    forget.addEventListener('click',function(){
+        rotationy += 90;
+        contain.style.transform=`rotateX(${rotationx}deg)rotateY(${rotationy}deg)`;
+    });
+   
+   </script>
+</body>
+
+
+</html>

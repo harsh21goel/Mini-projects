@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.css">
+    <style>
+        *{
+            font-family: "gilroy";
+        }
+        body{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 71px;
+background: url(back.jpg);
+}
+
+#container{
+  
+
+    width: 400px;
+    height: 400px;
+    /* background-color: aqua; */
+    transform-style: preserve-3d;
+    transition: transform 1s;
+    position: relative;
+   
+}
+.face{
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+  
+    /* background-color: blue; */
+
+}
+.front{
+    transform: translatez(200px);
+    background-color: #3487db;
+}
+.back{
+    transform: translatez(-200px) rotateY(180deg);
+    background-color: #2e0afb;
+}
+.left{
+    transform: translatex(-200px)rotateY(-90deg);;
+    background-color: #3453db;
+}
+.right{
+    transform: translatex(200px)rotateY(90deg);;
+    background-color: #4f58ff;
+}
+.head{
+    font-size: larger;
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+
+}
+.detail{
+    font-size: 25px;
+    color: white;
+    margin-left: 20px;
+}
+.detail input{
+    width: 300px;
+    height: 30px;
+}
+.detail a{
+    font-size: 15px;
+    /* text-decoration: none; */
+}
+.detail button{
+    width: 320px;
+    height: 30px;
+
+}
+.detail #right{
+margin-left: 100px;
+color: white;
+text-decoration: dashed;
+}
+.detail2{
+    font-size: 20px;
+    color: white;
+    margin-left: 40px;
+}
+.detail2 input{
+    width: 250px;
+    height: 25px;
+}
+.detail2 button{
+    width: 265px;
+    height: 30px;
+}
+.detail2 a{
+    font-size: smaller;
+    margin-left: 0px;
+    color: white;
+}
+.right a{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    margin-top: 60px;
+    font-size: large;
+    color: white;
+   
+}
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div class=" face front">
+          <div class="head"><h1>Log in</h1></div>
+          <div class="detail">
+<label for="emailorphn">Email or phone number</label>
+<br>
+<input type="text" name="" id="emailorphn">
+<br>
+<br>
+<label for="pass">Password</label>
+<br>
+<input type="number" name="" id="pass">
+<br>
+<a href="#"id="left" >Forget Password</a>
+<br>
+<br>
+<br>
+<button class="button">Submit</button>
+<br>
+<button id="back">Sign up</button>
+
+<a href="#" id="right">Log in diffrent way</a>
+          </div>
+        </div>
+        <div class= "face back">
+            <div class="head"><h1>Sign Up</h1></div>
+            <div class="detail2">
+  <label for="email">Email</label>
+  <br>
+  <input type="text" name="" id="email">
+  <br>
+  <br>
+  <label for="phn">Mobile Number</label>
+  <br>
+  <input type="text" name="" id="phn">
+  <br>
+  <br>
+  <label for="pass">Password</label>
+  <br>
+  <input type="number" name="" id="pass">
+  <br>
+  <br>
+  <label for="cpass"> Confirm Password</label>
+  <br>
+  
+  <input type="number" name="" id="cpass">
+  <br>
+  <br>
+  <br>
+  <button class="button">Submit</button>
+  <br>
+  <br>  
+  <a href="#" id="front"><---Go Back</a>
+            </div>
+        </div>
+        <div class= "face left">
+            <div class="head"><h1>Forget pass</h1></div>
+            <div class="detail">
+                <label for="mobile">Mobile no.</label>
+                <br>
+                <input type="number" name="" id="mobile">
+                <br>
+                <br>
+                <label for="otp">OTP</label>
+                <br>
+                <input type="number" name="" id="otp">
+                <br>
+                <br>
+                <label for="newpass">New Password</label>
+                <br>
+                <input type="number" name="" id="newpass">
+                <br>
+                <br>
+                <button class="button">Submit</button>
+                <br>
+<a href="#" id="goback"><---Go Back</a>
+
+            </div>
+        </div>
+        <div class="face right">
+            <a href="">Log in with twitter &nbsp;<i class="fab fa-twitter"></i></a>
+            <br>
+            <br>
+            <a href="">Log in with facebook &nbsp;<i class="fab fa-facebook"></i></a>
+            <br>
+            <br>
+            <a href="">Log in with instagram &nbsp;<i class="fab fa-instagram"></i></a>
+
+<a href="#" id="goback1"><---Go Back</a>
+
+        </div>
+<br>
+
+    </div>
+    <script>
+        let container=document.getElementById("container")
+        let back=document.getElementById("back")
+        let left=document.getElementById("left")
+        let right=document.getElementById("right")
+        let front=document.getElementById("front")
+        let goback=document.getElementById("goback")
+        let goback1=document.getElementById("goback1")
+        let rotationx=0
+        let rotationy=0
+
+        back.addEventListener('click',function(){
+        rotationy -= 180;
+        container.style.transform=`rotateX(${rotationx}deg)rotateY(${rotationy}deg)`;
+    });
+        left.addEventListener('click',function(){
+        rotationy += 90;
+        container.style.transform=`rotateX(${rotationx}deg)rotateY(${rotationy}deg)`;
+    });
+        right.addEventListener('click',function(){
+        rotationy -= 90;
+        container.style.transform=`rotateX(${rotationx}deg)rotateY(${rotationy}deg)`;
+    });
+    front.addEventListener('click',function(){
+        rotationy += 180;
+        container.style.transform=`rotateX(${rotationx}deg)rotateY(${rotationy}deg)`;
+    });
+    goback.addEventListener('click',function(){
+        rotationy -= 90;
+        container.style.transform=`rotateX(${rotationx}deg)rotateY(${rotationy}deg)`;
+    });
+    goback1.addEventListener('click',function(){
+        rotationy += 90;
+        container.style.transform=`rotateX(${rotationx}deg)rotateY(${rotationy}deg)`;
+    });
+    </script>
+</body>
+</html>
